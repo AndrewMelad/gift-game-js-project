@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Gift Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>java script</title>
+</head>
+
+<body>
+    <div class="form">
+        <h3>Gift Game</h3>
+                
+                <input type="number" pattern=" 0+\.[0-9]*[1-9][0-9]*$"
+                        onkeypress="return event.charCode  >= 48 && event.charCode <= 57"
+                        placeholder="Enter number of boxes" id="boxes">
+                <br>
+    
+        <button id="start">Start</button>
+    </div>
+
+    <div id="parent"></div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

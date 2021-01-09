@@ -1,0 +1,90 @@
+p {
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+.form {
+  height: 280px;
+  width: 400px;
+  background-color: aqua;
+  border: black 5px;
+  border-radius: 10px;
+  margin: 100px auto;
+  transition: ease-in-out all 0.5s;
+}
+.form:hover {
+  box-shadow: 10px 10px 10px rgb(95, 155, 155);
+}
+.form h3 {
+  font-size:x-large;
+  text-align: center;
+  transition: all ease-in-out 0.7s;
+  padding: 15px;
+  padding-top: 40px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+.form h3:hover {
+  color: red;
+}
+.form input {
+  width: 80%;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+.form button {
+  display: block;
+  margin: 15px auto;
+  padding: 15px;
+  color: black;
+  background-color: #ddd;
+  border-radius: 5px;
+  width: 200px;
+  font-size: large;
+  font-weight: bold;
+  transition: ease-in-out all 0.54s;
+  cursor: pointer;
+}
+.form button:hover {
+  color: brown;
+}
+.divBox {
+  height: 65px;
+  width: 65px;
+  background-color: aqua;
+  border: black 3px solid;
+  float: left;
+  padding: 10px;
+  margin-left: 100px;
+  margin-top: 170px;
+  text-align: center;
+  cursor: pointer;
+}
+.rotateText {
+  transform: rotateY(360deg);
+}
+.rotate {
+  transform: rotateY(180deg);
+  transition: all 0.5s ease-in-out;
+  background-color: brown;
+  color: #fff;
+}
+
+label {
+  font-size: 20px;
+  margin-left: 20px;
+}
+input {
+  padding: 10px;
+  border-radius: 3px solid black;
+}
+button {
+  padding: 10px;
+  text-align: center;
+  margin-left: 20px;
+  border-radius: 10px black;
+}
+.my-text {
+  margin-top: 20px;
+  margin: auto;
+}
